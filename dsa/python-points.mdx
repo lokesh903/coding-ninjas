@@ -1,2 +1,50 @@
 ord("A") = gives ascii value of A
 char(123) = gives char at ascii value 123
+Else with loops = In Python, the else statement can be used in conjunction with loops, including while and for loops. The else block is executed when the loop completes all its iterations without encountering a break statement.
+Fibonacci sequence begins 0, 1, 1, 2, 3, 5,
+
+## List
+>>> l1=[1,2,3,4]
+>>> l2=[5,6,7,8]
+>>> l1.extend(l2) #Adds contents of l2 to l1 at the end
+>>> l1
+[1,2,3,4,5,6,7,8]
+
+
+>>> li=[1,2,3,4]
+>>> li.insert(2,5) #Insert 5 at the index no. 2
+>>> li
+[1,2,5,3,4]
+if we insert in the list at index greater then its length then it will insert at the end
+>>> l1=[1,2,3,4,4,3,5,4,4,2]
+>>> c= l1.count(4) #Number of times 4 occurs in the list
+>>> c
+4
+
+>>> l1=[1,1,12,3]
+>>> del l1[2]
+>>> l1
+[1,1,3]
+
+>>> l1=[1,1,12,3]
+>>> l1.remove(12)
+>>> l1
+[1,1,3]
+
+
+In[1]: li= [int(x) for x in input().split()]
+
+
+### Resizing of list
+
+
+### Passing the list to the function
+
+def change(li):
+    li[1] = li[1] + 2
+    li = [3,3,3,4,5]
+li = [1,2,3,4,5]
+change(li)
+print(li)
+
+Ans  = [1,4,3,4,5]
