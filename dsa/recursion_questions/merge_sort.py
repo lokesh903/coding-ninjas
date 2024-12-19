@@ -44,3 +44,10 @@ def mergeSort(arr: [int], l: int, r: int):
 a= [2,13,4,1,3,6,28]
 mergeSort(a,0,6)
 print(a)
+
+
+# Time Complexity: 
+# 𝑂(𝑛log⁡𝑛)
+
+# Space Complexity: 
+# 𝑂(𝑛)
