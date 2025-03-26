@@ -1,0 +1,7 @@
+#special-dishes  img{
+    width:300px;
+    height: 200px;
+}
+#special-dishes{
+    display:flex;   
+}
